@@ -1,6 +1,6 @@
 %% loading data
 clear all; close all; clc;
-load dataset\synthetic\D1.mat 
+load datasets\synthetic\D1.mat 
 data=dataset(:,1:end-1); 
 T=dataset(:,end);  % T:true lable 
 [N,dim]=size(data); % N:size Dim:dimension
